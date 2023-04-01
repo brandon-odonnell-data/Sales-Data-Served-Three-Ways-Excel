@@ -57,4 +57,4 @@ Which category of products is sold most often? Batteries
 
 Which category of products generated the highest sales? How much? Laptops, $12,160,459
 
-What product sold the most? Why do you think it sold the most? AAA batteries (4-pack), followed by AA batteries (4-pack), charging cables and headphones. These products are the cheapest in the list and are also known to run out or failure regularly.
+Which product sold the most? Why do you think it sold the most? AAA batteries (4-pack), followed by AA batteries (4-pack), charging cables and headphones. These products are the cheapest in the list and are also known to run out or failure regularly.
