@@ -36,7 +36,7 @@ Order Date: The date the customer is requesting the order be shipped.
 
 Purchase Address: Prepared by the buyer, often through a purchasing department. The purchase order, or PO, usually includes a PO number, which is useful in matching shipments with purchases; a shipping date; billing address; shipping address; and the request items, quantities and price.
 
-Initial explorations of the fields and subsequent cleaning in Power Query involved manual checks on blank and null values; generic text entries for “Product”, “Order Date” and “Purchase Address” were identified (0.19% of total rows) and removed. Duplicated rows were also deleted (0.14% of total rows). Variable types were changed to appropriate text, numeric and date/time types. 
+Initial explorations of the fields and subsequent cleaning in Power Query involved manual checks on blank and null values; generic text entries for “Product”, “Order Date” and “Purchase Address” were identified (0.19% of total rows) and removed. Duplicated rows were also deleted (0.14% of total rows), as were 34 rows with dates outside of 2019.  Variable types were changed to appropriate text, numeric and date/time types. 
 
 Additional columns were created to split the date/time entries into year, month, hour and minute, as well as to calculate the total sales value for each row. State and city were extracted into their own columns, and products were grouped according to category. Finally, the data was trimmed and cleaned.
 
