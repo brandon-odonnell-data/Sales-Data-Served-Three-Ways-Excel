@@ -1,6 +1,6 @@
 # Sales-Data-Served-Three-Ways-Excel
 
-Tools and Languages: Excel (associated SQL and Power BI projects coming soon)
+Tools and Languages: Excel (see associated SQL and Power BI (coming soon) projects)
 
 Description and Intent: This analysis of electronics, appliances and accessories sales data from the USA, derived from twelve Kaggle CSV files spanning the entirety of 2019, was conducted to answer the files' associated series of questions (updated slightly to reflect different/additional queries):
 
@@ -18,7 +18,7 @@ Which category of products is sold most often?
 
 Which category of products generated the highest sales? How much?
 
-What product sold the most? Why do you think it sold the most?
+Which product sold the most? Why do you think it sold the most?
 
 The analysis was carried out entirely within Excel, including Power Query, with additional intentions to 'serve the data' with two additional options: SQL and Power BI.
 
@@ -39,15 +39,16 @@ Purchase Address: Prepared by the buyer, often through a purchasing department. 
 Initial explorations of the fields and subsequent cleaning in Power Query involved manual checks on blank and null values; generic text entries for “Product”, “Order Date” and “Purchase Address” were identified (0.19% of total rows) and removed. Duplicated rows were also deleted (0.14% of total rows). Variable types were changed to appropriate text, numeric and date/time types. 
 
 Additional columns were created to split the date/time entries into year, month, hour and minute, as well as to calculate the total sales value for each row. State and city were extracted into their own columns, and products were grouped according to category. Finally, the data was trimmed and cleaned.
+
 Pivot tables were utilised to address each question specifically, with associated charts generated for use in dashboards. Three dashboard tabs were created to focus on sales and numbers related to time, product/category and location. The charts were linked to slicers that can impact all three boards to allow for considerations across all three breakdown categories.
 
 Finally, the posed questions were answered as follows:
 
-What was the total sales amount for that year? $34,465,538
+What was the total sales amount for that year? $34,492,036
 
-What was the best month for sales? How much was earned that month? December, $4,608,296
+What was the best month for sales? How much was earned that month? December, $4,613,443
 
-Which state had the highest total sales? How much? California, $13,708,048
+Which state had the highest total sales? How much? California, $13,714,775
 
 Which city had the highest number of sales? San Francisco, CA
 
@@ -55,6 +56,6 @@ What time should we display advertisements to maximise the likelihood of custome
 
 Which category of products is sold most often? Batteries
 
-Which category of products generated the highest sales? How much? Laptops, $12,160,459
+Which category of products generated the highest sales? How much? Laptops, $12,167,559
 
 Which product sold the most? Why do you think it sold the most? AAA batteries (4-pack), followed by AA batteries (4-pack), charging cables and headphones. These products are the cheapest in the list and are also known to run out or failure regularly.
