@@ -44,11 +44,10 @@ Pivot tables were utilised to address each question specifically, with associate
 
 Finally, the posed questions were answered as follows:
 
-What was the total sales amount for that year? $34,492,036
+What was the total sales amount for that year? $34,483,366
 
 What was the best month for sales? How much was earned that month? December, $4,613,443
-
-Which state had the highest total sales? How much? California, $13,714,775
+Which state had the highest total sales? How much? California, $13,711,290
 
 Which city had the highest number of sales? San Francisco, CA
 
@@ -56,6 +55,6 @@ What time should we display advertisements to maximise the likelihood of custome
 
 Which category of products is sold most often? Batteries
 
-Which category of products generated the highest sales? How much? Laptops, $12,167,559
+Which category of products generated the highest sales? How much? Laptops, $12,163,859
 
 Which product sold the most? Why do you think it sold the most? AAA batteries (4-pack), followed by AA batteries (4-pack), charging cables and headphones. These products are the cheapest in the list and are also known to run out or failure regularly.
